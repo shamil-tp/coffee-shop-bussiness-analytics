@@ -1,0 +1,6 @@
+Step,Action,Description,Rows Affected
+1,Header Normalization,Standardized all column headers to lowercase snake_case.,100000
+2,Datetime Parsing,Converted string timestamps into standard ISO datetime objects.,100000
+3,Deduplication Audit,Verified uniqueness of transaction_id primary key.,0
+4,Null Value Audit,Verified zero missing values across all 17 schema columns.,0
+5,Numeric Validation,Validated mathematical consistency: net_sales = gross_sales - discount_amount.,100000
